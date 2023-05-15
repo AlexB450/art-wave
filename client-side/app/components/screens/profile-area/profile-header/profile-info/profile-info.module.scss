@@ -1,0 +1,13 @@
+.profile_info {
+	@apply grid w-full max-sm:justify-center sm:grid-cols-2;
+}
+.item {
+	@apply mb-3 flex last:m-0;
+	> span {
+		@apply pl-1 last:text-blue-gray even:capitalize;
+	}
+}
+
+.icon_wrapper {
+	@apply mr-3 text-lg text-light-gray;
+}

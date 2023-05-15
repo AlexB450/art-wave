@@ -1,0 +1,6 @@
+.box {
+	@apply flex items-center rounded-full bg-[#2A2F39] px-4 text-blue-gray;
+}
+.coin {
+	@apply mr-3 text-sm;
+}

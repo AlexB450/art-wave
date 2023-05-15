@@ -1,0 +1,15 @@
+.box {
+	@apply text-center;
+	> h4 {
+		@apply mb-1;
+	}
+	> div {
+		@apply relative;
+	}
+}
+.canvas {
+	@apply -rotate-90;
+}
+.percent {
+	@apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  font-medium;
+}

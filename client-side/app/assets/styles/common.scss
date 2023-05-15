@@ -1,0 +1,32 @@
+@import './variables.scss';
+.btn {
+	@apply relative rounded-full bg-blue px-4 py-1 transition-bg;
+
+	&::after {
+		@apply absolute left-0 top-0 z-10 block h-full w-full rounded-full bg-transparent transition-bg content-[''];
+	}
+
+	&:hover {
+		&::after {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+	}
+}
+.a {
+	@apply transition-colors hover:text-white;
+}
+.my_section {
+	@apply mx-auto flex max-w-[925px] flex-col max-lg:max-w-[668px];
+}
+.profile_block {
+	@apply m-3 rounded-xl bg-gray p-6 max-md:m-2 max-md:p-3;
+}
+input {
+	&:-webkit-autofill,
+	&:-webkit-autofill:hover,
+	&:-webkit-autofill:focus,
+	&:-webkit-autofill:active {
+		-webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.9) inset !important;
+		-webkit-text-fill-color: $white !important;
+	}
+}

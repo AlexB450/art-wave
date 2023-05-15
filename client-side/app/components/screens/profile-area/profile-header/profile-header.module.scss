@@ -1,0 +1,15 @@
+.profile_header {
+	@apply relative;
+}
+.row_top {
+	@apply flex justify-center max-lg:flex-wrap;
+}
+.second {
+	@apply h-full max-lg:w-full;
+}
+.second_top {
+	@apply flex items-center;
+	> div {
+		@apply mx-3;
+	}
+}

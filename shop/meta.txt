@@ -1,0 +1,8 @@
+main description :
+	Welcome to our online art shop 
+	where you can browse and purchase a variety 
+	of beautiful and unique pieces created 
+	by talented artists. 
+	You can also create your own custom artwork 
+	with our easy-to-use tools. Start exploring 
+	and let your creativity run wild!

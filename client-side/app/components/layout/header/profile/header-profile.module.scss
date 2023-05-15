@@ -1,0 +1,9 @@
+.box {
+	@apply ml-2 flex border-l border-gray;
+	> svg {
+		@apply mx-4;
+	}
+}
+.avatar {
+	@apply h-8 w-8 rounded-full bg-gray;
+}

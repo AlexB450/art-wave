@@ -1,0 +1,6 @@
+.form {
+	@apply m-auto mt-[20vh] flex max-w-[400px] flex-col rounded-xl bg-[rgba(0,0,0,.3)] p-3 text-center;
+	> * {
+		@apply my-4;
+	}
+}

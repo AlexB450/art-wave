@@ -1,0 +1,6 @@
+.panel {
+	@apply max-h-0 block overflow-hidden transition-all;
+}
+.active{
+	@apply hidden;
+}

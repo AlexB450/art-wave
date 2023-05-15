@@ -1,0 +1,6 @@
+.my_layout {
+	@apply relative mb-14;
+	> h1 {
+		@apply mt-6 text-lg;
+	}
+}

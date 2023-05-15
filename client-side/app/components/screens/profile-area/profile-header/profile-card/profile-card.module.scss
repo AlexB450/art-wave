@@ -1,0 +1,27 @@
+.card {
+	@apply flex w-full justify-center lg:max-w-[300px];
+}
+.mask {
+	@apply absolute bottom-0 left-0 w-full bg-gray bg-opacity-90;
+}
+.name {
+	@apply my-3 flex items-center;
+	> h5 {
+		@apply ml-2 text-sm;
+	}
+}
+.img_wrapper {
+	@apply relative overflow-hidden rounded-2xl;
+}
+.btn_section {
+	@apply flex;
+	> button {
+		@apply flex w-full items-center justify-center;
+		> span {
+			@apply mr-2;
+		}
+	}
+	> button:last-child {
+		@apply ml-4 border border-blue bg-transparent text-blue;
+	}
+}

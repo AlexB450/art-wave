@@ -1,0 +1,18 @@
+.contacts {
+	@apply flex w-full overflow-hidden  max-xl:justify-center max-sm:flex-wrap;
+}
+.item {
+	@apply ml-3 flex items-center border-l border-light-gray pl-3  max-sm:mb-3 max-sm:w-2/5;
+	> span {
+		@apply first:mr-2 first:text-lg first:text-light-gray;
+	}
+	&:first-child {
+		@apply sm:m-0 sm:border-0 sm:p-0;
+	}
+}
+.short_text {
+	max-width: 13ch;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}

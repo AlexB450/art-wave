@@ -1,0 +1,9 @@
+.layout {
+	@apply min-h-screen;
+	> section {
+		@apply mt-[var(--header-h)] px-2;
+	}
+}
+.section_bar {
+	@apply ml-[var(--side-w)];
+}

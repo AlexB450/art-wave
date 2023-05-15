@@ -1,0 +1,16 @@
+.box {
+	@apply relative mx-4  flex items-center rounded-full bg-gray;
+}
+.input {
+	@apply bg-transparent px-12 py-1;
+}
+.btn_search,
+.btn_slider {
+	@apply absolute;
+}
+.btn_search {
+	@apply left-4;
+}
+.btn_slider {
+	@apply right-4;
+}

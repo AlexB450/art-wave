@@ -1,0 +1,27 @@
+.box {
+	@apply relative max-w-[300px] overflow-hidden rounded-2xl bg-gray;
+	button {
+		@apply mt-3;
+	}
+}
+.header {
+	@apply relative max-h-[150px] overflow-hidden;
+}
+.footer {
+	@apply flex justify-between  px-4 pb-4 pt-2;
+	> div {
+		@apply px-1;
+	}
+}
+.rating {
+	@apply absolute left-4 top-4 rounded-full bg-gray px-1 py-[1px];
+}
+.name {
+	@apply text-sm;
+}
+.description {
+	@apply text-light-gray;
+	button {
+		@apply m-0 text-blue-gray hover:underline;
+	}
+}

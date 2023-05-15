@@ -1,0 +1,7 @@
+.menu {
+	@apply fixed bottom-0 left-1/2 m-0 flex w-full -translate-x-1/2 flex-row flex-wrap justify-center rounded-none border-t-2 border-gray bg-primary;
+	> a {
+		@apply mx-2 px-2 text-xs uppercase text-light-gray;
+	}
+}
+/* mx-auto flex flex-col max-lg:max-w-[668px] xl:max-w-[925px] */
